@@ -1,0 +1,59 @@
+{
+  "profile": {
+    "photo": "docs/profile.png",
+    "name": "Seu Nome",
+    "title": "Sua Profissão",
+    "location": "Brasil",
+    "about": "Um breve resumo sobre você, suas paixões e o que você faz."
+  },
+  
+  "theme": "dark",
+  "availability": {
+    "openToWork": true,
+    "message": "Seu status de trabalho (Ex: Disponível, De Férias)."
+  },
+
+  "skills": [
+    { "name": "HTML & CSS", "level": "Avançado" },
+    { "name": "Laravel", "level": "Avançado" },
+    { "name": "JavaScript", "level": "Intermediário" },
+    { "name": "Bootstrap", "level": "Avançado" },
+    { "name": "MySQL", "level": "Intermediário" }
+  ],
+
+  "experience": [
+    {
+      "role": "Profissão",
+      "company": "Nome da Empresa",
+      "period": "Periodo (Ex: Jan 2020 - Presente)",
+      "description": "Descrição breve das responsabilidades e conquistas."
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Nome do Projeto",
+      "featured": false,
+      "description": "Descrição breve do projeto.",
+      "tech": ["Laravel", "Bootstrap", "MySQL"],
+      "image": "assets/projects/dashboard.png",
+      "repo": "https://github.com/usuario/dashboard",
+      "status": "Adicione o status do projeto aqui (Ex: Em desenvolvimento, Concluído)"
+    },
+    {
+      "title": "Nome do Projeto",
+      "featured": false,
+      "description": "Descrição breve do projeto.",
+      "tech": ["Laravel", "Bootstrap", "MySQL"],
+      "image": "assets/projects/exemple.jpg",
+      "repo": "https://github.com/usuario/dashboard",
+      "status": "Adicione o status do projeto aqui (Ex: Em desenvolvimento, Concluído)"
+    }
+  ],
+
+  "contacts": {
+    "github": "https://github.com/usuario",
+    "linkedin": "https://linkedin.com/in/usuario",
+    "email": "email@exemplo.com"
+  }
+}
